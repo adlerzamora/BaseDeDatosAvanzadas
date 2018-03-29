@@ -21,7 +21,7 @@ namespace practica2._1 {
             adj[v].Add (w);
         }
 
-        /*
+        
         List<Int32> BFS (int s) {
             // Keep track of BFS Path
             List<Int32> pathTrack = new List<int> ();
@@ -40,6 +40,7 @@ namespace practica2._1 {
                 // Dequeue a vertex from queue and print it
                 s = queue[0];
                 queue.RemoveAt (0);
+                Console.WriteLine(s);
                 pathTrack.Add (s);
 
                 // Get all adjacent vertices of the dequeued vertex s
@@ -55,7 +56,7 @@ namespace practica2._1 {
                 }
             }
             return pathTrack;
-        } */
+        }
 
         void DFSUtil(int v, bool[] visited){
             Console.WriteLine("Entra a DFSUtil");
@@ -123,7 +124,7 @@ namespace practica2._1 {
             g.addEdge (2, 3);
             g.addEdge (3, 3);
 
-            g.DFS (2);
+            g.BFS (2);
             /*foreach (var nodo in path) {
                 //Console.WriteLine(nodosRelacion[nodo]);
                 Console.WriteLine (nodo);

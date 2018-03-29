@@ -1,0 +1,11 @@
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\bin\Debug\netcoreapp2.0\practica2.1.deps.json
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\bin\Debug\netcoreapp2.0\practica2.1.runtimeconfig.json
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\bin\Debug\netcoreapp2.0\practica2.1.runtimeconfig.dev.json
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\bin\Debug\netcoreapp2.0\practica2.1.dll
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\bin\Debug\netcoreapp2.0\practica2.1.pdb
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\obj\Debug\netcoreapp2.0\practica2.1.csprojResolveAssemblyReference.cache
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\obj\Debug\netcoreapp2.0\practica2.1.csproj.CoreCompileInputs.cache
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\obj\Debug\netcoreapp2.0\practica2.1.AssemblyInfoInputs.cache
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\obj\Debug\netcoreapp2.0\practica2.1.AssemblyInfo.cs
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\obj\Debug\netcoreapp2.0\practica2.1.dll
+F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Practica 2.1\practica2.1\obj\Debug\netcoreapp2.0\practica2.1.pdb

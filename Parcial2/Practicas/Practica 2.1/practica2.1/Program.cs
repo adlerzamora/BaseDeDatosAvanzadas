@@ -2,6 +2,8 @@
 using static System.Console;
 using System.Collections.Generic;
 using System.Text;
+using QuickGraph;
+using QuickGraph.Algorithms;
 
 namespace practica2._1 {
     class Program {
@@ -40,7 +42,7 @@ namespace practica2._1 {
                 // Dequeue a vertex from queue and print it
                 s = queue[0];
                 queue.RemoveAt (0);
-                Console.WriteLine(s);
+                //Console.WriteLine(s);
                 pathTrack.Add (s);
 
                 // Get all adjacent vertices of the dequeued vertex s
@@ -85,7 +87,7 @@ namespace practica2._1 {
         }
 
         static void Main (string[] args) {
-            /*
+            
             var Parser = new GDFParser.GDFParser ();
 
             Parser.LoadFile (@"F:\Documentos\Itesm\BasedeDatosAvanzada\Parcial2\Practicas\Grafos\unreal1.gdf");
@@ -103,32 +105,24 @@ namespace practica2._1 {
             foreach (var node in nodos) {
                 nodosRelacion.Add (node.Name);
                 name.Add (node.Username);
-                Console.WriteLine (node.Username + " || " + node.Name);
+                //Console.WriteLine (node.Username + " || " + node.Name);
             }
 
             Program g = new Program (nodosRelacion.Count);
 
             foreach (var edge in aristas) {
                 g.addEdge (nodosRelacion.IndexOf (edge.Source.Name), nodosRelacion.IndexOf (edge.Target.Name));
-            }*/
+            }
 
             Console.WriteLine ("Following is Breadth First Traversal " +
                 "(starting from vertex 0)");
 
-            Program g = new Program (4);
+            path = g.BFS (2);
 
-            g.addEdge (0, 1);
-            g.addEdge (0, 2);
-            g.addEdge (1, 2);
-            g.addEdge (2, 0);
-            g.addEdge (2, 3);
-            g.addEdge (3, 3);
-
-            g.BFS (2);
-            /*foreach (var nodo in path) {
-                //Console.WriteLine(nodosRelacion[nodo]);
-                Console.WriteLine (nodo);
-            }*/
+            foreach (var nodo in path) {
+                Console.WriteLine(name[nodo] + "|| " + nodosRelacion[nodo] + " -->");
+                //Console.WriteLine (nodo);
+            }
         }
     }
 }
